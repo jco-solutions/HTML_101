@@ -1,0 +1,31 @@
+@media (max-width: 500px) {
+  .text {
+    background-color: green;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 1000px) {
+  .top :hover {
+    background-color: black;
+  }
+}
+
+body {
+  background-color: powderblue;
+}
+
+.top {
+  overflow: auto;
+}
+
+.logo {
+  float: left;
+}
+
+.credentials {
+  float: right;
+}
+
+.text {
+  overflow: auto;
+}
