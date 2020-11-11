@@ -1,0 +1,22 @@
+.container {
+  background-color: black;
+  display: flex;
+  height: 64px;
+}
+.end {
+  background-color: black;
+  margin-left: auto;
+  color: white;
+  border: transparent;
+}
+
+.home {
+  background-color: green;
+  color: white;
+}
+
+.Other {
+  background-color: transparent;
+  color: white;
+  border: transparent;
+}
