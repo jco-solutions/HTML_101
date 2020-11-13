@@ -1,0 +1,23 @@
+.checkerboard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  background-color: teal;
+  width: 100px;
+  height: 100px;
+}
+
+.row:nth-child(odd) .cell:nth-child(even) {
+  background-color: tomato;
+}
+
+.row:nth-child(even) .cell:nth-child(odd) {
+  background-color: tomato;
+}
